@@ -9,7 +9,7 @@
         public string ContactNumber { get; set; }
         public string Email { get; set; }
         public int ExperienceYears { get; set; }
-        public bool IsActive { get; set; }
+        public bool IsActive { get; set; } = true;
 
     }
 }

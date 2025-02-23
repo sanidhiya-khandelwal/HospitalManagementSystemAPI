@@ -37,6 +37,7 @@ namespace DoctorService.Repositories
                 doctor.Specialization,
                 doctor.ContactNumber,
                 doctor.Email,
+                doctor.ExperienceYears,
                 doctor.IsActive
             }, commandType: CommandType.StoredProcedure);
             return result > 0;
